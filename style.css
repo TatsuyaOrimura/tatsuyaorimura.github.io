@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6fc6e8;
+}
+
+.centerxy {
+    position: fixed;
+    max-width: 75%;
+    max-height: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centery {
+    position: fixed;
+    max-width: 90%;
+    max-height: 90%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
